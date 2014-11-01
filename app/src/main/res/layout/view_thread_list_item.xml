@@ -47,8 +47,22 @@
             android:textStyle="bold"/>
 
 
+        <TextView
+            android:id="@+id/thread_message_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/participant_name"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/participant_name"
+            android:paddingRight="30dp"
+            android:paddingLeft="40dp"
+            android:text="3/6"
+            android:textColor="#040404"
+            android:textSize="15dip"
+            android:textStyle="bold"/>
 
-        <TextView android:id="@+id/thread_message_date"
+
+        <TextView android:id="@+id/amount_sent_label"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@id/participant_name"

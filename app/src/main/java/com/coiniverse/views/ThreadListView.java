@@ -25,6 +25,7 @@ public class ThreadListView extends LinearLayout {
     private ImageView mProfilePic;
     private TextView mName;
     private TextView mSentDate;
+    private TextView mMessage;
 
     /**
      * @param context
@@ -67,6 +68,7 @@ public class ThreadListView extends LinearLayout {
         mProfilePic = (ImageView) mainV.findViewById(R.id.fake_profile_pic);
         mName = (TextView) mainV.findViewById(R.id.participant_name);
         mSentDate = (TextView) mainV.findViewById(R.id.thread_message_date);
+        mMessage = (TextView) mainV.findViewById(R.id.thread_last_message_blurp);
     }
 
 
@@ -80,6 +82,7 @@ public class ThreadListView extends LinearLayout {
 
         mProfilePic.setImageDrawable(res.getDrawable(id));
         mName.setText(res.getStringArray(R.array.thread_titles)[pos%15]);
+        mMessage.setText(res.getStringArray(R.array.messages)[pos%10]);
         mSentDate.setText("Oct " + (rand.nextInt(24) + 1));
         int max_spots = rand.nextInt(50) + 1;
     }
