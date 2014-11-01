@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prevent Coach</string>
+    <string name="title_section1">Threads</string>
+    <string name="title_section2">Settings</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_new_message">New Message</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- LoginFragment -->
+    <string name="active_participant_test_email">active_participant@omadatest.com</string>
+    <string name="active_participant_test_password">asdfasdf</string>
+    <string name="email_hint">email</string>
+    <string name="password_hint">password</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="terms_of_service">Terms of Service</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="by_logging_in">By logging in you are agreeing to the</string>
+    <string name="and_our">&#160;and our&#160;</string>
+    <string name="learn_more">Learn More</string>
+    <string name="login_button_label">Log In</string>
+    <string name="logout_button_label">Log Out</string>
+    <string name="terms_of_service_web_url">https://preventnow.com/terms-of-use/</string>
+    <string name="privacy_policy_web_url">https://preventnow.com/privacy/</string>
+
+    <!-- ThreadFragment -->
+    <string-array name="thread_titles">
+        <item>John</item>
+        <item>Stoyan</item>
+        <item>Lil\' John</item>
+        <item>Vincent</item>
+        <item>Yassine</item>
+        <item>Big John</item>
+        <item>Laura</item>
+        <item>Eric</item>
+        <item>Vincent</item>
+        <item>Mike</item>
+        <item>Sean</item>
+        <item>Stoyan</item>
+        <item>Peter</item>
+        <item>Ed</item>
+        <item>Ky</item>
+    </string-array>
+
+
+    <string-array name="messages">
+        <item>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</item>
+        <item>Aenean lacinia bibendum nulla sed consectetur.</item>
+        <item>Bibendum Ornare Sit Cras Mattis</item>
+        <item>Vehicula Sollicitudin Risus Adipiscing Ullamcorper</item>
+        <item>Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod.</item>
+        <item>Inceptos Magna Ornare Ipsum</item>
+        <item>Maecenas sed diam eget risus varius blandit sit amet non magna. Cras mattis consectetur purus sit amet fermentum.</item>
+    </string-array>
+
+    <!-- Toast Messages -->
+    <string name="network_error_toast">Could not connect to network</string>
+    <string name="networking_error_toast">Oops! There seems to be something wrong with your network.</string>
+    <string name="login_successful_toast">Login successful! Fetching user data...</string>
+    <string name="login_failed_toast">Login failed! Invalid login/password or network error.</string>
+    <string name="logout_successful_toast">Logout successful!</string>
+    <string name="logout_failed_toast">Logout failed!</string>
+    <string name="invalid_email_toast">Email is not in a valid format</string>
+    <string name="invalid_password_toast">Password is invalid or too short</string>
+
+
+
+</resources>

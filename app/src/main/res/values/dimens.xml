@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">240dp</dimen>
+
+
+    <!-- AboutFragment -->
+    <dimen name="centered_element_margin">40dp</dimen>
+
+    <!-- AddMealFragment -->
+    <dimen name="photo_description_text_margin">10dp</dimen>
+    <dimen name="photo_description_text_margin_top">7dp</dimen>
+    <dimen name="photo_description_text_margin_to_button">10dp</dimen>
+    <dimen name="meal_tile_text_margin_to_button">10dp</dimen>
+    <dimen name="fake_photo_capture_size">40dp</dimen>
+    <dimen name="photo_button_layout_padding">5dp</dimen>
+    <dimen name="meal_tile_layout_padding">5dp</dimen>
+    <dimen name="meal_line_separator_height">1dp</dimen>
+    <dimen name="meal_value_text_margin_left">20dp</dimen>
+    <dimen name="meal_value_text_margin_top">10dp</dimen>
+    <dimen name="meal_value_margin_bottom">5dp</dimen>
+    <dimen name="photo_description_text_size">18sp</dimen>
+    <dimen name="add_meal_item_tile_text_size">18sp</dimen>
+    <dimen name="add_meal_item_edit_text_size">25sp</dimen>
+    <dimen name="add_meal_item_previous_text_size">18sp</dimen>
+    <dimen name="add_meal_item_edit_text_instructions_size">16sp</dimen>
+    <dimen name="add_meal_item_edit_text_padding_top">15dp</dimen>
+    <dimen name="add_meal_item_edit_text_padding_left">10dp</dimen>
+    <dimen name="add_meal_item_edit_text_padding_bottom">5dp</dimen>
+    <dimen name="add_meal_item_previous_text_padding_left">20dp</dimen>
+    <dimen name="add_meal_item_previous_text_padding_top">10dp</dimen>
+    <dimen name="add_meal_item_recent_items_padding_top">20dp</dimen>
+    <dimen name="add_meal_item_recent_items_instructions_padding_bottom">20dp</dimen>
+    <dimen name="add_meal_item_added_items_padding_top">20dp</dimen>
+    <dimen name="meal_value_text_size">18sp</dimen>
+    <dimen name="meal_item_list_padding_left">25dp</dimen>
+    <dimen name="meal_item_list_padding_right">15dp</dimen>
+    <dimen name="meal_healthiness_text_size">16sp</dimen>
+
+
+    <!-- Defaults -->
+    <dimen name="default_label_font_size">24sp</dimen>
+
+    <!-- TrackerFoodFragment -->
+    <dimen name="fragment_tracker_fragment_day_nav">50dp</dimen>
+    <dimen name="fragment_tracker_fragment_type_nav">40dp</dimen>
+    <dimen name="fragment_tracker_fragment_small_margin">10dp</dimen>
+    <dimen name="tracker_reflection_circle_padding">35dp</dimen>
+
+
+    <!-- LoginFragment -->
+    <dimen name="fragment_login_main_panel_bottom_padding">15dp</dimen>
+    <dimen name="fragment_login_main_panel_margin_tb">50dp</dimen>
+    <dimen name="fragment_login_main_panel_margin_lr">20dp</dimen>
+    <dimen name="fragment_login_edit_text_size">20sp</dimen>
+    <dimen name="fragment_login_large_text_size">18sp</dimen>
+    <dimen name="fragment_login_small_text_size">16sp</dimen>
+
+    <!-- UngroupedFragment -->
+    <dimen name="activity_horizontal_margin_large">32dp</dimen>
+    <dimen name="large_text_font_size">20dp</dimen>
+
+    <!-- WaterGlassView -->
+    <dimen name="water_glass_margin_left">12dp</dimen>
+
+    <!-- WeightChartView -->
+    <dimen name="weight_chart_height">200dp</dimen>
+    <dimen name="weight_chart_line_weight">1.5dp</dimen>
+    <dimen name="weight_chart_dot_radius">1.5dp</dimen>
+    <dimen name="weight_chart_dot_selected_radius">4.5dp</dimen>
+    <dimen name="weight_chart_text_y_margin">20dp</dimen>
+    <dimen name="weight_chart_graph_y_top_margin">35dp</dimen>
+    <dimen name="weight_chart_graph_y_bottom_margin">25dp</dimen>
+    <dimen name="weight_chart_label_y_bottom_margin">5dp</dimen>
+    <dimen name="weight_chart_label_weight">18sp</dimen>
+    <dimen name="weight_chart_label_date">14sp</dimen>
+
+    <!-- WeightSummaryFragment -->
+    <dimen name="weight_summary_margin">20dp</dimen>
+</resources>

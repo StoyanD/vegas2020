@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="offwhite">#e7ebf1</color>
+    <color name="offwhite_bar">#e4e7ed</color>
+    <color name="line_color">#d2d6db</color>
+    <color name="lime_green">#c5d957</color>
+    <color name="lime_green_translucent">#66c5d957</color>
+    <color name="light_blue">#76aadb</color>
+    <color name="theme_blue">#528fcb</color>
+    <color name="calendar_red">#e6735c</color>
+    <color name="very_light_grey">#e4e7ed</color>
+    <color name="light_grey">#c4c9cc</color>
+    <color name="between_medium_and_light_grey">#b6c4cc</color>
+    <color name="medium_grey">#889399</color>
+    <color name="medium_grey_inactive">#66889399</color>
+    <color name="medium_dark_grey">#6e747a</color>
+    <color name="dark_grey">#525f66</color>
+    <color name="very_dark_grey">#373f49</color>
+    <color name="very_dark_grey_translucent">#ee393d40</color>
+    <color name="white">#ffffff</color>
+    <color name="white_translucent">#66ffffff</color>
+    <color name="white_login_background">#ccffffff</color>
+    <color name="tracker_black_message">#383c40</color>
+    <color name="black">#000000</color>
+    <color name="teal">#82d9d6</color>
+    <color name="dark_teal">#58ccc8</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_button_shadow">#19000000</color>
+    <color name="chart_bg_grey">#373f49</color>
+
+
+    <color name="message_teal_green">#52c1be</color>
+    <color name="message_gray">#ced0d0</color>
+
+</resources>

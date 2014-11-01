@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/thread_list_selector"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:id="@+id/expandable_list_item">
+
+        <LinearLayout android:id="@+id/thumbnail_frame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dip"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/thread_list_image_bg"
+            android:layout_marginRight="5dip">
+            <ImageView
+                android:id="@+id/fake_profile_pic"
+                android:src="@drawable/f_1"
+                android:layout_height="45dp"
+                android:layout_width="45dp"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:layout_alignParentLeft="true"/>
+        </LinearLayout>
+
+        <!-- The title of the event -->
+        <TextView
+            android:id="@+id/participant_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/thumbnail_frame"
+            android:layout_toRightOf="@+id/thumbnail_frame"
+            android:paddingLeft="20dp"
+            android:paddingTop="10dp"
+            android:text="Mike"
+            android:textColor="#040404"
+            android:typeface="sans"
+            android:textSize="15dip"
+            android:textStyle="bold"/>
+
+
+
+        <TextView android:id="@+id/thread_message_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/participant_name"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="30dp"
+            android:text="3/6"
+            android:textColor="#040404"
+            android:textSize="15dip"
+            android:textStyle="bold"/>
+
+        <TextView android:id="@+id/thread_last_message_blurp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/thumbnail_frame"
+            android:layout_toRightOf="@id/thumbnail_frame"
+            android:paddingLeft="15dp"
+            android:text="In 2 hours I will me going to the next thins to eat big and not"
+            android:textColor="#343434"
+            android:textSize="10dip"/>
+
+
+
+	</RelativeLayout>
+</LinearLayout>

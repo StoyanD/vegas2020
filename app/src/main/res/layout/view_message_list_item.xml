@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    android:background="@color/message_teal_green"
+    android:orientation="vertical">
+    <TextView android:id="@+id/message_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="At vero eos et accusamus et iusto odio dignissimos ducimus, simili laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio."/>
+</LinearLayout>

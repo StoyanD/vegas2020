@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash_bg"
+        android:scaleType="center"/>
+
+
+
+    <RelativeLayout android:id="@+id/login_rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@color/white">
+        <EditText android:id="@+id/email_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/email_hint"
+            android:text="@string/active_participant_test_email"
+            android:inputType="textEmailAddress|textNoSuggestions"
+            android:singleLine="true"
+            android:textColorHint="@color/medium_dark_grey"
+            android:textSize="@dimen/fragment_login_edit_text_size" />
+        <EditText android:id="@+id/password_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email_field"
+            android:layout_marginTop="15dp"
+            android:hint="@string/password_hint"
+            android:text="@string/active_participant_test_password"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColorHint="@color/medium_dark_grey"
+            android:textSize="@dimen/fragment_login_edit_text_size" />
+     </RelativeLayout>
+    <ImageView
+        android:id="@+id/prevent_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/login_rl"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="40dp"
+        android:src="@drawable/logo_prevent" />
+    <Button android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:text="@string/login_button_label"
+        android:textColor="@color/medium_grey"
+        android:textSize="@dimen/fragment_login_large_text_size"/>
+    <ProgressBar
+        android:id="@+id/login_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
